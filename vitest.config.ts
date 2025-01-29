@@ -10,6 +10,7 @@ export default defineConfig({
       '@test': './test',
     },
     root: './',
+    passWithNoTests: true,
   },
   resolve: {
     alias: {
