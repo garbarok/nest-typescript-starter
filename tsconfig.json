@@ -23,7 +23,17 @@
       "@shared/*": ["src/shared/*"],
       "@tests/*": ["tests/*"],
       "@contexts/*": ["src/contexts/*"]
-    }
+    },
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src",
+    "scripts",
+    "vitest.config.*.ts",
+    ".eslintrc.js",
+    "commitlint.config.ts"
+  ],
+  "exclude": ["dist", "node_modules", ".husky"]
 }
