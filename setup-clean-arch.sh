@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Crear estructura principal
+
 mkdir -p src/{
   domain/{entities,value-objects,aggregates,events,repositories,exceptions,services},
   application/{use-cases,ports,dtos,event-handlers},
@@ -8,10 +8,10 @@ mkdir -p src/{
   interfaces/{http/{controllers,middlewares,dtos},events,commands,grpc}
 }
 
-# Crear .gitkeep en todas las carpetas principales
+
 find src -type d -exec touch {}/.gitkeep \;
 
-# Crear contextos (ejemplo con auth y tasks)
+
 contexts=("auth" "tasks" "users" "shared")
 
 for context in "${contexts[@]}"; do
@@ -23,10 +23,10 @@ for context in "${contexts[@]}"; do
   }
 done
 
-# Agregar archivos de configuración básicos
+
 touch {Dockerfile,docker-compose.yml,.env.example,README.md}
 
-# Crear tests de arquitectura (ejemplo con archunit)
+
 mkdir -p arch-tests
 cat << EOF > arch-tests/architecture.rules
 // Reglas básicas para validar dependencias
@@ -44,10 +44,10 @@ public class ArchitectureTest {
 }
 EOF
 
-# Crear script de post-instalación
+
 cat << EOF > validate-architecture.sh
 #!/bin/bash
-# Ejecutar tests de arquitectura (requiere ArchUnit o herramienta similar)
+
 mvn test -Dtest=ArchitectureTest
 EOF
 
