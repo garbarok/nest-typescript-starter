@@ -59,6 +59,7 @@
     "vite": "^6.0.11"
   },
   "devDependencies": {
+    "rimraf": "^6.0.1",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
@@ -92,6 +93,12 @@
     "typescript-eslint": "^8.22.0",
     "unplugin-swc": "^1.5.1",
     "vitest": "^3.0.4"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.24.3",
+    "@swc/core-linux-arm64-musl": "^1.7.42",
+    "@swc/core-linux-x64-gnu": "^1.7.42",
+    "@swc/core-linux-x64-musl": "^1.7.42"
   },
   "jest": {
     "moduleFileExtensions": [
