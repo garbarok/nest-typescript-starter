@@ -40,8 +40,8 @@ importers:
         version: 6.1.0(@types/node@22.13.1)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0)
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu':
-        specifier: ^4.32.1
-        version: 4.32.1
+        specifier: ^4.34.3
+        version: 4.34.3
       '@swc/core-linux-arm64-musl':
         specifier: ^1.10.11
         version: 1.10.11
@@ -1181,11 +1181,6 @@ packages:
   '@rollup/rollup-linux-s390x-gnu@4.34.3':
     resolution: {integrity: sha512-dIOoOz8altjp6UjAi3U9EW99s8nta4gzi52FeI45GlPyrUH4QixUoBMH9VsVjt+9A2RiZBWyjYNHlJ/HmJOBCQ==}
     cpu: [s390x]
-    os: [linux]
-
-  '@rollup/rollup-linux-x64-gnu@4.32.1':
-    resolution: {integrity: sha512-WQFLZ9c42ECqEjwg/GHHsouij3pzLXkFdz0UxHa/0OM12LzvX7DzedlY0SIEly2v18YZLRhCRoHZDxbBSWoGYg==}
-    cpu: [x64]
     os: [linux]
 
   '@rollup/rollup-linux-x64-gnu@4.34.3':
@@ -5490,9 +5485,6 @@ snapshots:
     optional: true
 
   '@rollup/rollup-linux-s390x-gnu@4.34.3':
-    optional: true
-
-  '@rollup/rollup-linux-x64-gnu@4.32.1':
     optional: true
 
   '@rollup/rollup-linux-x64-gnu@4.34.3':
