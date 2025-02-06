@@ -52,8 +52,8 @@ importers:
         version: 6.1.0(@types/node@22.13.1)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0)
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu':
-        specifier: ^4.34.3
-        version: 4.34.3
+        specifier: ^4.34.4
+        version: 4.34.4
       '@swc/core-linux-arm64-musl':
         specifier: ^1.10.14
         version: 1.10.14
@@ -1212,6 +1212,11 @@ packages:
 
   '@rollup/rollup-linux-x64-gnu@4.34.3':
     resolution: {integrity: sha512-lOyG3aF4FTKrhpzXfMmBXgeKUUXdAWmP2zSNf8HTAXPqZay6QYT26l64hVizBjq+hJx3pl0DTEyvPi9sTA6VGA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-gnu@4.34.4':
+    resolution: {integrity: sha512-JGejzEfVzqc/XNiCKZj14eb6s5w8DdWlnQ5tWUbs99kkdvfq9btxxVX97AaxiUX7xJTKFA0LwoS0KU8C2faZRg==}
     cpu: [x64]
     os: [linux]
 
@@ -5745,6 +5750,9 @@ snapshots:
     optional: true
 
   '@rollup/rollup-linux-x64-gnu@4.34.3':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.34.4':
     optional: true
 
   '@rollup/rollup-linux-x64-musl@4.34.3':
