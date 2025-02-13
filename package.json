@@ -101,7 +101,7 @@
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.34.6",
     "@swc/core-linux-arm64-musl": "^1.10.15",
-    "@swc/core-linux-x64-gnu": "^1.10.15",
+    "@swc/core-linux-x64-gnu": "^1.10.16",
     "@swc/core-linux-x64-musl": "^1.10.15"
   },
   "jest": {
