@@ -58,8 +58,8 @@ importers:
         specifier: ^1.10.16
         version: 1.10.16
       '@swc/core-linux-x64-gnu':
-        specifier: ^1.10.16
-        version: 1.10.16
+        specifier: ^1.10.17
+        version: 1.10.17
       '@swc/core-linux-x64-musl':
         specifier: ^1.10.16
         version: 1.10.16
