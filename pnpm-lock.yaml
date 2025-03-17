@@ -55,8 +55,8 @@ importers:
         specifier: ^4.36.0
         version: 4.36.0
       '@swc/core-linux-arm64-musl':
-        specifier: ^1.11.9
-        version: 1.11.9
+        specifier: ^1.11.10
+        version: 1.11.10
       '@swc/core-linux-x64-gnu':
         specifier: ^1.11.10
         version: 1.11.10
@@ -1351,6 +1351,12 @@ packages:
 
   '@swc/core-linux-arm64-gnu@1.11.9':
     resolution: {integrity: sha512-9ArpxjrNbyFTr7gG+toiGbbK2mfS+X97GIruBKPsD8CJH/yJlMknBsX3lfy9h/L119zYVnFBmZDnwsv5yW8/cw==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@swc/core-linux-arm64-musl@1.11.10':
+    resolution: {integrity: sha512-XZ61quwNgTqvbMqpFAa6/ZqoErabocHUHMWQHyShxbqM2nkP1sBe6EgODX6mNSzLn0u+KDVRyQUy9ratt+xbFw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -5885,6 +5891,9 @@ snapshots:
     optional: true
 
   '@swc/core-linux-arm64-gnu@1.11.9':
+    optional: true
+
+  '@swc/core-linux-arm64-musl@1.11.10':
     optional: true
 
   '@swc/core-linux-arm64-musl@1.11.9':
