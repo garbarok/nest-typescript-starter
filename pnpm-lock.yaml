@@ -61,8 +61,8 @@ importers:
         specifier: ^1.11.18
         version: 1.11.18
       '@swc/core-linux-x64-musl':
-        specifier: ^1.11.16
-        version: 1.11.16
+        specifier: ^1.11.18
+        version: 1.11.18
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.8.0
@@ -1357,12 +1357,6 @@ packages:
 
   '@swc/core-linux-x64-gnu@1.11.18':
     resolution: {integrity: sha512-h9a/8PA25arMCQ9t8CE8rA1s0c77z4kCZZ7dUuUkD88yEXIrARMca1IKR7of+S3slfQrf1Zlq3Ac1Fb1HVJziQ==}
-    engines: {node: '>=10'}
-    cpu: [x64]
-    os: [linux]
-
-  '@swc/core-linux-x64-musl@1.11.16':
-    resolution: {integrity: sha512-k2JBfiwWfXCIKrBRjFO9/vEdLSYq0QLJ+iNSLdfrejZ/aENNkbEg8O7O2GKUSb30RBacn6k8HMfJrcPLFiEyCQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -5808,9 +5802,6 @@ snapshots:
     optional: true
 
   '@swc/core-linux-x64-gnu@1.11.18':
-    optional: true
-
-  '@swc/core-linux-x64-musl@1.11.16':
     optional: true
 
   '@swc/core-linux-x64-musl@1.11.18':
