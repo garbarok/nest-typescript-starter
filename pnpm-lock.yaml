@@ -58,8 +58,8 @@ importers:
         specifier: ^1.11.21
         version: 1.11.21
       '@swc/core-linux-x64-gnu':
-        specifier: ^1.11.20
-        version: 1.11.20
+        specifier: ^1.11.21
+        version: 1.11.21
       '@swc/core-linux-x64-musl':
         specifier: ^1.11.21
         version: 1.11.21
@@ -1369,6 +1369,12 @@ packages:
 
   '@swc/core-linux-x64-gnu@1.11.20':
     resolution: {integrity: sha512-OFU53idbY8KA1RkNzZBi0FpoRPSn/anv4N7ZzGZGk664UoFwMbSL+XHGocJzhV9G/VNGH7bMBmgoVWk72nn5hw==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@swc/core-linux-x64-gnu@1.11.21':
+    resolution: {integrity: sha512-NesdBXv4CvVEaFUlqKj+GA4jJMNUzK2NtKOrUNEtTbXaVyNiXjFCSaDajMTedEB0jTAd9ybB0aBvwhgkJUWkWA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -5828,6 +5834,9 @@ snapshots:
     optional: true
 
   '@swc/core-linux-x64-gnu@1.11.20':
+    optional: true
+
+  '@swc/core-linux-x64-gnu@1.11.21':
     optional: true
 
   '@swc/core-linux-x64-musl@1.11.20':
