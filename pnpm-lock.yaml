@@ -21,8 +21,8 @@ importers:
         specifier: ^11.0.20
         version: 11.0.20(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)
       '@nestjs/swagger':
-        specifier: ^11.1.4
-        version: 11.1.4(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(class-validator@0.14.1)(reflect-metadata@0.2.2)
+        specifier: ^11.1.5
+        version: 11.1.5(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(class-validator@0.14.1)(reflect-metadata@0.2.2)
       '@nestjs/terminus':
         specifier: ^11.0.0
         version: 11.0.0(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(@nestjs/typeorm@11.0.0(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.22(mysql2@3.12.0)(pg@8.15.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.21)(@types/node@22.14.1)(typescript@5.8.3))))(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.22(mysql2@3.12.0)(pg@8.15.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.21)(@types/node@22.14.1)(typescript@5.8.3)))
@@ -1067,8 +1067,8 @@ packages:
     peerDependencies:
       typescript: '>=4.8.2'
 
-  '@nestjs/swagger@11.1.4':
-    resolution: {integrity: sha512-px+ue6YeNyExL7Vg39HMJb3iPgFJD5oiOzUFS+4I0PhKNznMjSxMMZyDh1M8cuhqt4s3YvE7b0e/v6BgWdx/bQ==}
+  '@nestjs/swagger@11.1.5':
+    resolution: {integrity: sha512-qVkyUSCvEmfTVWK92hsCeOQaOODlyBGkZC4ldqb4Fi0Gg8/kOWlcPJVN6i4a9edYYSdICUkGnt6UVFgi59fSrQ==}
     peerDependencies:
       '@fastify/static': ^8.0.0
       '@nestjs/common': ^11.0.1
@@ -5653,7 +5653,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@nestjs/swagger@11.1.4(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(class-validator@0.14.1)(reflect-metadata@0.2.2)':
+  '@nestjs/swagger@11.1.5(@nestjs/common@11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.20)(class-validator@0.14.1)(reflect-metadata@0.2.2)':
     dependencies:
       '@microsoft/tsdoc': 0.15.1
       '@nestjs/common': 11.0.20(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.2)
