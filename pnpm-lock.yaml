@@ -71,8 +71,8 @@ importers:
         specifier: ^19.8.1
         version: 19.8.1
       '@commitlint/types':
-        specifier: ^19.8.0
-        version: 19.8.0
+        specifier: ^19.8.1
+        version: 19.8.1
       '@eslint/eslintrc':
         specifier: ^3.3.1
         version: 3.3.1
@@ -449,10 +449,6 @@ packages:
 
   '@commitlint/top-level@19.8.0':
     resolution: {integrity: sha512-Rphgoc/omYZisoNkcfaBRPQr4myZEHhLPx2/vTXNLjiCw4RgfPR1wEgUpJ9OOmDCiv5ZyIExhprNLhteqH4FuQ==}
-    engines: {node: '>=v18'}
-
-  '@commitlint/types@19.8.0':
-    resolution: {integrity: sha512-LRjP623jPyf3Poyfb0ohMj8I3ORyBDOwXAgxxVPbSD0unJuW2mJWeiRfaQinjtccMqC5Wy1HOMfa4btKjbNxbg==}
     engines: {node: '>=v18'}
 
   '@commitlint/types@19.8.1':
@@ -4971,7 +4967,7 @@ snapshots:
       '@commitlint/lint': 19.8.0
       '@commitlint/load': 19.8.0(@types/node@22.15.15)(typescript@5.8.3)
       '@commitlint/read': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       tinyexec: 0.3.2
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -5001,7 +4997,7 @@ snapshots:
 
   '@commitlint/format@19.8.0':
     dependencies:
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       chalk: 5.4.1
 
   '@commitlint/is-ignored@19.8.0':
@@ -5014,14 +5010,14 @@ snapshots:
       '@commitlint/is-ignored': 19.8.0
       '@commitlint/parse': 19.8.0
       '@commitlint/rules': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
 
   '@commitlint/load@19.8.0(@types/node@22.15.15)(typescript@5.8.3)':
     dependencies:
       '@commitlint/config-validator': 19.8.0
       '@commitlint/execute-rule': 19.8.0
       '@commitlint/resolve-extends': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.8.3)
       cosmiconfig-typescript-loader: 6.1.0(@types/node@22.15.15)(cosmiconfig@9.0.0(typescript@5.8.3))(typescript@5.8.3)
@@ -5043,7 +5039,7 @@ snapshots:
   '@commitlint/read@19.8.0':
     dependencies:
       '@commitlint/top-level': 19.8.0
-      '@commitlint/types': 19.8.0
+      '@commitlint/types': 19.8.1
       git-raw-commits: 4.0.0
       minimist: 1.2.8
       tinyexec: 0.3.2
@@ -5069,11 +5065,6 @@ snapshots:
   '@commitlint/top-level@19.8.0':
     dependencies:
       find-up: 7.0.0
-
-  '@commitlint/types@19.8.0':
-    dependencies:
-      '@types/conventional-commits-parser': 5.0.1
-      chalk: 5.4.1
 
   '@commitlint/types@19.8.1':
     dependencies:
