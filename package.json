@@ -63,7 +63,7 @@
     "vite": "^6.3.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
+    "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/types": "^19.8.1",
     "@eslint/eslintrc": "^3.3.1",
