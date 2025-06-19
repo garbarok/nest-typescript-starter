@@ -161,8 +161,8 @@ importers:
         specifier: ^8.34.1
         version: 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       unplugin-swc:
-        specifier: ^1.5.4
-        version: 1.5.4(@swc/core@1.12.1)(rollup@4.40.1)
+        specifier: ^1.5.5
+        version: 1.5.5(@swc/core@1.12.1)(rollup@4.40.1)
       vitest:
         specifier: ^3.0.5
         version: 3.0.5(@types/node@22.15.30)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.1)
@@ -1219,8 +1219,8 @@ packages:
     resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rollup/pluginutils@5.1.4':
-    resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
+  '@rollup/pluginutils@5.2.0':
+    resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -4486,8 +4486,8 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  unplugin-swc@1.5.4:
-    resolution: {integrity: sha512-NYa0rEUI8+Ckr+azVyAWIBWOrqnoWsDeHPLCMAsEWXJzkNwG1GtYf/Fe872ulOPKRmQsY1VEd20d5Y3fLiiZQQ==}
+  unplugin-swc@1.5.5:
+    resolution: {integrity: sha512-BahYtYvQ/KSgOqHoy5FfQgp/oZNAB7jwERxNeFVeN/PtJhg4fpK/ybj9OwKtqGPseOadS7+TGbq6tH2DmDAYvA==}
     peerDependencies:
       '@swc/core': ^1.2.108
 
@@ -5823,7 +5823,7 @@ snapshots:
 
   '@pkgr/core@0.2.7': {}
 
-  '@rollup/pluginutils@5.1.4(rollup@4.40.1)':
+  '@rollup/pluginutils@5.2.0(rollup@4.40.1)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
@@ -9273,9 +9273,9 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-swc@1.5.4(@swc/core@1.12.1)(rollup@4.40.1):
+  unplugin-swc@1.5.5(@swc/core@1.12.1)(rollup@4.40.1):
     dependencies:
-      '@rollup/pluginutils': 5.1.4(rollup@4.40.1)
+      '@rollup/pluginutils': 5.2.0(rollup@4.40.1)
       '@swc/core': 1.12.1
       load-tsconfig: 0.2.5
       unplugin: 2.3.5
@@ -9284,7 +9284,7 @@ snapshots:
 
   unplugin@2.3.5:
     dependencies:
-      acorn: 8.14.1
+      acorn: 8.15.0
       picomatch: 4.0.2
       webpack-virtual-modules: 0.6.2
 
